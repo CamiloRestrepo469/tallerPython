@@ -18,51 +18,67 @@ impuestosmargarita=0.11
 impuestosgalapagos=0.09
 impuestosmukura=0.11
 impuestossanandres=0.13
-pasajeros=0
-tarifatotal=0
-contador=0
-viajes=0
 
-breakcentinela=input('desea salir de vaciones con covid-19 incluido si o no?  ')
+# contadores
+
+contadorcapurgana=0
+contadornuqui=0
+contadorislamargarita=0
+contadorislagalapagos=0
+contadormukura=0
+contadorislasanandres=0
+
+pasajeros=0
+# tarifatotal=0
+
+
+
+breakcentinela=input('desea salir de vaciones con covid-19 incluido si o no ?    ')
 while (breakcentinela=='si'):
-    pasajeros=float(input('numero de pasajeros que desean viajar   '))  
+    pasajeros=int(input( 'numero de pasajeros que desean viajar    '))  
     contador=0
     while (contador<pasajeros):
-
-        print('eliga un numero para su destino ')
+        contador+=1
+        print(contador)
         print('"1" = capurgana ')
         print('"2" = nuqui  ')
         print('"3" = isla margarita  ')
         print('"4" = isla galapago  ')
         print('"5" = isla mukura  ')
         print('"6" = isla san andres  ')
-
         viajes=0
-        viajes=float(input('eliga un numero para su destino\n'))  
+        viajes=int(input('eliga un numero para su destino    ')) 
+        if (viajes==1):
+            contadorcapurgana+=1
+            tarifatotal=capurgana*impuestoscapurgana*tasacapurgana
+        elif (viajes==2):
+            contadornuqui+=1
+            tarifatotal=nuqui*impuestosnuqui*tasanuqui
+        elif (viajes==3):
+            contadorislamargarita+=1
+            tarifatotal=islamargarita*impuestosmargarita*tasamargarita
+        elif (viajes==4):
+            contadorislagalapagos+=1
+            tarifatotal=islagalapagos+impuestosgalapagos+tasagalapagos
+        elif (viajes==5):
+            contadormukura+=1
+            tarifatotal=mukura*impuestosmukura*tasamukura
+        elif (viajes==6):
+            contadorislasanandres+=1
+            tarifatotal=islasanandres*impuestossanandres*tasasanandres
 
-        if (pasajeros==1):
-            contador+=1
-            pasajeros+=1
-        elif (pasajeros==2):
-            contador+1
-            pasajeros+=1
-        elif (pasajeros==3):
-            contador+1
-            pasajeros+=1
-        elif (pasajeros==4):
-            contador+1
-            pasajeros+=1
-        elif (pasajeros==5):
-            contador+1
-            pasajeros+=1
-        elif (pasajeros==6):
-            contador+1
-            pasajeros+=1
-            print('valor de la tarifa   ',tarifatotal,'\n')
-            print('total de pasajeros  ',pasajeros,'\n')
-    tarifatotal=contador+pasajeros+viajes
-print('valor de la tarifa   ',tarifatotal,'\n')
-print('total de pasajeros  ',pasajeros,'\n')
+        breakcentinela=input('desea salir de vaciones con covid-19 incluido si o no?  ')
+        
+
+        print('valor de la tarifa   por viaje  ',tarifatotal,'\n')
+        print('total de pasajeros  para viajar  ',pasajeros,'\n')
+
+
+   
+print('total de los viajes    ',viajes ,'\n')
+print('total de a viajar  pasajeros  ',contador ,'\n')
+
+
 
 
        

@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 
 contador=0
@@ -20,7 +20,7 @@ contador_suma=contador+contador2
 
 print("el numero de los hombres es   ",contador)
 print("el numero de los mujeres es   ",contador2)
-=======
+# =======
 
 
 contador=0

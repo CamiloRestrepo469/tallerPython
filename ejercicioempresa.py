@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+# <<<<<<< HEAD
 solicitud=input("diga si o no si desea hacer una solicitud ")
 solicitud="si"
 analista=0

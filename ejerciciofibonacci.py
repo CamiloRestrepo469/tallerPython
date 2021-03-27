@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+# <<<<<<< HEAD
 
 
 fibonacci=1 
@@ -28,4 +28,4 @@ if limite > 0:
     print()
 else:
     print("El numero que ingrese debe ser mayor a cero!!")
->>>>>>> 28e3dae935986658287930d8ace2adf434424120
+

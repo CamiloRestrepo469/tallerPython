@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+# <<<<<<< HEAD
 solicitud=input("desea ingresar (si o no)")
 adultos=0
 ninos=0
@@ -38,4 +38,4 @@ contadortotalpersonas=contadorninos+contadoradultos
 
 print("el porcentaje adulto es  ",round(contadoradultos/contadortotalpersonas,2))
 print("el porcentaje nino es  ",round(contadorninos/contadortotalpersonas,2))
->>>>>>> 28e3dae935986658287930d8ace2adf434424120
+

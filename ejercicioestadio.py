@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+# <<<<<<< HEAD
 boletas=0
 capacidad=45000
 hombres=0

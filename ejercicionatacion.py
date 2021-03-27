@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 print("bienvenido a la escula de natacion ")
 solicitud=input("deseo ingresar a uno de nuestros cursos  si o  no    ")
 
@@ -36,7 +36,7 @@ controltotaldeninos=contadorninos+contadoradolecentes
 
 print("total de ninos son  : ",controltotaldeninos)
 print("el curso que deseo cuesta  : ",curso)
-=======
+# =======
 print("bienvenido a la escula de natacion ")
 solicitud=input("deseo ingresar a uno de nuestros cursos  si o  no    ")
 
@@ -74,4 +74,4 @@ controltotaldeninos=contadorninos+contadoradolecentes
 
 print("total de ninos son  : ",controltotaldeninos)
 print("el curso que deseo cuesta  : ",curso)
->>>>>>> 28e3dae935986658287930d8ace2adf434424120
+

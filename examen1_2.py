@@ -20,7 +20,7 @@ print("Minimo a 3 años = 36 meses")
 print("Por ejemplo 4 años exactos= 48 meses")
 tiempo=int(input("por favor indique solo el número en meses  :  "))
 
-if(tiempo<=36 or tiempo>=61):
+if(tiempo<=35 or tiempo>=61):
     print("se sale del premedio de meses por favor reitentarlo  ")
 else:
     print("Así quedara la financiación de su vehiculo segun los meses ")

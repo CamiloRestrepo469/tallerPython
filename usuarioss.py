@@ -7,6 +7,7 @@ print("************(correo del remitente)*****************")
 datos = [0 for x in range(10)]
 for i in range(0,len(datos)):
     datos[i] = input( "-------Dime tu correo {} :  ".format(i+1) )
+    
 print ("*******Estos son los correos al reves   :  ********** ")
 for i in range(len(datos),0,-1):
     print (" el orden es {} :".format(i), datos[i-1] )
